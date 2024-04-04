@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofoliu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Portofoliu</h1>
+        <nav>
+            <ul>
+                <li><a href="#despre">Despre mine</a></li>
+                <li><a href="#skilluri">Skilluri</a></li>
+                <li><a href="#proiecte">Proiecte</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="despre">
+            <h2>Despre mine</h2>
+            <p>Sunt pasionata de programare si concep siteuri ,aplicatii si proiecte folosind limbaje de programare.</p>
+        </section>
+        <section id="skilluri">
+            <h2>Skilluri</h2>
+            <p>Cunosc mai multe limbaje de programare:HTML,CSS,JavaScript,Java,C++ si frameworkuri:Bootstrap,baze de date MySql,Github.</p>
+            <p>Folosesc Visual Studio Code,Codeblocks,compilator online , https://validator.w3.org/ pentru validarea codurilor scrise de mine.</p>
+        </section>
+        <section id="proiecte">
+            <h2>Proiecte</h2>
+            <p>Am conceput proiecte de la cele simple la cele mai complexe si le-am postat pe github .</p>
+            <p>Poti vedea aceste proiecte accesand linkul https://github.com/Cristina2020-art.</p>
+        </section>
+        <section id="galerie">
+            <h2>Galerie</h2>
+            <p>Am postat o imagine cu proiecte la care am lucrat.</p><br>
+            <img src="capture.PNG" alt="Descrierea imaginii">
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Poti lua legatura cu mine prin email:criss26.2006@yahoo.com,prin facebook accesand urmatorul link:https://www.facebook.com/.</p><br>
+            <h3>Formular de contact:</h3>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Nume:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesaj:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                </div>
+                <button type="submit">Trimite</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Portofoliu. Toate drepturile rezervate.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
